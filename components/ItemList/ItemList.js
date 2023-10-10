@@ -1,9 +1,10 @@
 import ItemCard from "../ItemCard/ItemCard";
+import { StyledUnorderedList } from "./ItemList.styled";
 
 export default function ItemList() {
   return (
-    <ul>
+    <StyledUnorderedList>
       <ItemCard />
-    </ul>
+    </StyledUnorderedList>
   );
 }
