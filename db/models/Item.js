@@ -5,8 +5,10 @@ const { Schema } = mongoose;
 const itemSchema = new Schema({
   name: { type: String, required: true },
   img: { type: String },
-  article_number: { type: String },
-  price: { type: Number },
+  product_id: { type: String },
+  price: { type: String, required: true },
+  link: { type: String },
+  collections: [{ type: String }],
 });
 
 const Item = mongoose.models?.Item || mongoose.model("Item", itemSchema);
