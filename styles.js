@@ -11,6 +11,12 @@ export default createGlobalStyle`
     margin: 0;
     padding: 10px;
     font-family: system-ui;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 355px;
   }
 
   h1 {
