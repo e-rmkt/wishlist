@@ -31,8 +31,8 @@ export default createGlobalStyle`
     font-size: 14px;
     position: relative;
     bottom: -0.7rem;
-    right: 0.3rem;
     text-align: right;
+    right: 0.3rem;
   }
 
   p {

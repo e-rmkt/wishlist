@@ -27,6 +27,6 @@ export const ImageContainer = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   height: 4rem;
+  flex-wrap: wrap;
 `;
