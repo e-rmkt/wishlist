@@ -11,7 +11,7 @@ export default function ItemCard({ name, price, img }) {
   return (
     <>
       <StyledListItem>
-        <Link href={"x"}>
+        <Link href={"fakeurl"}>
           <ImageContainer>
             <StyledImage src={img} alt={"dummy pic"} fill={true} />
           </ImageContainer>
