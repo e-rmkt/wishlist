@@ -29,6 +29,10 @@ export default createGlobalStyle`
 
   h3 {
     font-size: 14px;
+    position: relative;
+    bottom: -0.7rem;
+    right: 0.3rem;
+    text-align: right;
   }
 
   p {

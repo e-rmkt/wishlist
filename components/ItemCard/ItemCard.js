@@ -17,8 +17,8 @@ export default function ItemCard({ name, price, img }) {
           </ImageContainer>
           <Wrapper>
             <h2>{name}</h2>
-            <h3>{price}</h3>
           </Wrapper>
+          <h3>{price}</h3>
         </Link>
       </StyledListItem>
     </>
