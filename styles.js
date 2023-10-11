@@ -34,4 +34,12 @@ export default createGlobalStyle`
   p {
     font-size: 12px;
   }
+
+  a {
+    text-decoration: none;
+    &:link {
+     color: #252525
+    }
+    $:visited: #252525s
+  }
 `;
