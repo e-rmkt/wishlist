@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   main {
-    max-width: 355px;
+    max-width: 370px;
   }
 
   h1 {
