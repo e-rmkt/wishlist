@@ -1,5 +1,5 @@
 import ItemCard from "../ItemCard/ItemCard";
-import { StyledUnorderedList } from "./ItemList.styled";
+import { StyledUnorderedList, Box } from "./ItemList.styled";
 import useSWR from "swr";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -16,6 +16,7 @@ export default function ItemList() {
       {items.map((item) => (
         <ItemCard key={item._id} {...item} />
       ))}
+      <Box />
     </StyledUnorderedList>
   );
 }
