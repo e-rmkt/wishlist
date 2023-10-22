@@ -1,34 +1,39 @@
+import Link from "next/link";
+import { StyledForm, StyledLabel } from "./AddForm.styled";
+
 export default function AddForm() {
   return (
-    <form>
-      <label>
+    <StyledForm>
+      <StyledLabel>
         Name
         <input name="name" placeholder="Item Name" minLength={3} required />
-      </label>
-      <label>
+      </StyledLabel>
+      <StyledLabel>
         Price
         <input name="price" placeholder="Item Price" minLength={3} required />
-      </label>
-      <label>
+      </StyledLabel>
+      <StyledLabel>
         Product ID
         <input name="product-id" placeholder="Item Product ID" minLength={3} />
-      </label>
-      <label>
+      </StyledLabel>
+      <StyledLabel>
         Link
         <input type="url" name="url" placeholder="Page Link" minLength={3} />
-      </label>
-      <label>
+      </StyledLabel>
+      <StyledLabel>
         Collections
         <select name="collections">
           <option selected hidden disabled>
             Select a collection
           </option>
         </select>
-      </label>
-      <label>
+      </StyledLabel>
+      <StyledLabel>
         Image
         <input type="file" name="image" placeholder="Item Image" />
-      </label>
-    </form>
+      </StyledLabel>
+      <button type="submit">Add Item</button>
+      <Link href={"/"}>Cancel</Link>
+    </StyledForm>
   );
 }
