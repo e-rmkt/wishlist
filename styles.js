@@ -20,7 +20,7 @@ export default createGlobalStyle`
   }
 
   h1 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   h2 {
